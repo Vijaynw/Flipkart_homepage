@@ -8,10 +8,11 @@
     position: fixed;
     justify-content: space-between;
     flex-direction: row;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     background: #2874f0;
     height: 55px;
     width: 100vw;
+    padding: 0 10px;
     z-index: 1;
     
 
@@ -20,6 +21,7 @@
 .nav ul{
     display: flex;
     align-items: center ;
+    width: 100vw;
 
 }
 
@@ -34,13 +36,13 @@ ul li{
 }
 
 .search{
-    width: 100vw;
+    /* width: 100vw; */
     
     /* border: 1px solid red; */
    display: flex;
    justify-content: flex-end;
    align-items: center;
-   /* margin-left: 55%; */
+   margin-right: 2%;
    
 }
 
